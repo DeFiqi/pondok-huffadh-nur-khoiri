@@ -1,0 +1,231 @@
+# PONDOK PESANTREN HUFFADH NUR KHORI
+
+## Project Overview
+
+Bangun website modern untuk Pondok Pesantren Huffadh Nur Khori menggunakan Next.js 15 App Router, TypeScript, Tailwind CSS, MongoDB Atlas, dan Admin Dashboard.
+
+Target deployment: Vercel.
+
+## Branding
+
+Nama:
+Pondok Pesantren Huffadh Nur Khori
+
+Alamat:
+Janti, Mojoagung, Jombang 61482, Jawa Timur
+
+Developer:
+FawwaDev
+
+## Color Palette
+
+Primary:
+#0F5132
+
+Secondary:
+#198754
+
+Accent:
+#D4AF37
+
+White:
+#FFFFFF
+
+## Tech Stack
+
+* Next.js 15 App Router
+* TypeScript
+* Tailwind CSS
+* MongoDB Atlas
+* Mongoose
+* NextAuth atau JWT Authentication
+* Cloudinary Upload
+* React Hook Form
+* Zod Validation
+* Shadcn UI
+
+## Public Pages
+
+### Home
+
+Sections:
+
+* Hero Banner
+* Sambutan Pengasuh
+* Profil Singkat
+* Program Unggulan
+* Mengapa Memilih Kami
+* Statistik Pesantren
+* Galeri Terbaru
+* Berita Terbaru
+* CTA Pendaftaran
+
+### Tentang
+
+* Sejarah Pesantren
+* Visi Misi
+* Struktur Organisasi
+* Profil Pengasuh
+
+### Program
+
+* Tahfidz Qur'an
+* Madrasah Diniyah
+* Program Unggulan
+* Kegiatan Harian
+
+### Berita
+
+/news
+
+/news/[slug]
+
+### Galeri
+
+/gallery
+
+### PPDB
+
+/admissions
+
+### Kontak
+
+/contact
+
+Google Maps
+WhatsApp
+Form Kontak
+
+## Admin Panel
+
+Route:
+
+/admin/login
+
+/admin
+
+Menu:
+
+* Dashboard
+* Berita
+* Galeri
+* Program
+* Guru
+* PPDB
+* Pengaturan
+
+## MongoDB Collections
+
+admins
+
+{
+username,
+password,
+role,
+createdAt
+}
+
+news
+
+{
+title,
+slug,
+excerpt,
+content,
+cover,
+category,
+published,
+createdAt
+}
+
+gallery
+
+{
+title,
+image,
+category,
+createdAt
+}
+
+teachers
+
+{
+name,
+position,
+photo,
+bio
+}
+
+programs
+
+{
+title,
+description,
+image
+}
+
+admissions
+
+{
+fullName,
+phone,
+parentName,
+address,
+school,
+status,
+createdAt
+}
+
+settings
+
+{
+siteName,
+logo,
+address,
+phone,
+email,
+whatsapp,
+maps,
+facebook,
+instagram,
+youtube
+}
+
+## Homepage Hero
+
+Judul:
+
+PONDOK PESANTREN HUFFADH NUR KHORI
+
+Subjudul:
+
+Mencetak Generasi Penghafal Al-Qur'an yang Berakhlakul Karimah dan Berwawasan Islam
+
+CTA:
+
+* Jelajahi Program
+* Daftar Sekarang
+
+## Footer
+
+PONDOK PESANTREN HUFFADH NUR KHORI
+
+Janti, Mojoagung, Jombang 61482, Jawa Timur
+
+© 2026
+
+Developed by FawwaDev
+
+## Requirements
+
+* Responsive Mobile
+* SEO Friendly
+* Dynamic Metadata
+* Sitemap.xml
+* Robots.txt
+* Image Optimization
+* Server Actions
+* Dark Green Islamic Theme
+* Elegant Gold Accent
+* Fast Loading
+* Production Ready

@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+--primary: #0F5132;
+--secondary: #198754;
+--accent: #D4AF37;
+}
+
+body {
+background: #ffffff;
+color: #111827;
+}
+
+.btn-primary {
+background: var(--primary);
+color: white;
+}
+
+.btn-gold {
+background: var(--accent);
+color: var(--primary);
+}
