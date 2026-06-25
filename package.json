@@ -1,1 +1,34 @@
-{"name":"pondok-huffadh-nur-khoiri","version":"1.0.0","private":true,"scripts":{"dev":"next dev --turbopack","build":"next build","start":"next start","lint":"next lint"},"dependencies":{"bcryptjs":"^3.0.2","cloudinary":"^2.10.0","lucide-react":"^0.525.0","mongodb":"^7.3.0","mongoose":"^8.16.1","next":"15.3.4","next-auth":"^4.24.11","react":"^19.1.0","react-dom":"^19.1.0","react-hook-form":"^7.58.1","react-icons":"^5.6.0","sonner":"^2.0.5","zod":"^4.0.5"},"devDependencies":{"@tailwindcss/postcss":"^4.3.1","@types/node":"^24.0.10","@types/react":"^19.1.8","@types/react-dom":"^19.1.6","tailwindcss":"^4.1.11","typescript":"^5.8.3"}}
+{
+  "name": "pondok-huffadh-nur-khoiri",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.10.0",
+    "lucide-react": "^0.525.0",
+    "mongodb": "^7.3.0",
+    "mongoose": "^8.16.1",
+    "next": "15.3.8",
+    "next-auth": "^4.24.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.58.1",
+    "react-icons": "^5.6.0",
+    "sonner": "^2.0.5",
+    "zod": "^4.0.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "@types/node": "^24.0.10",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
+  }
+}
