@@ -11,7 +11,7 @@ export default function Hero() {
         className="min-h-screen bg-cover bg-center bg-no-repeat relative"
         style={{
           backgroundImage:
-            "url('/hero-pesantren.JPG')",
+            "url('/hero-pesantren.jpg')",
         }}
       >
 
