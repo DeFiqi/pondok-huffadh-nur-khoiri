@@ -13,7 +13,7 @@ export default function FloatingWhatsApp() {
 
       {open && (
 
-        <div className="bg-white rounded-2xl shadow-xl p-4 mb-3 w-72">
+        <div className="absolute bottom-20 right-0 bg-white rounded-2xl shadow-xl p-4 w-72">
 
           <h3 className="font-bold mb-3">
             Hubungi Panitia PSB
@@ -52,11 +52,28 @@ export default function FloatingWhatsApp() {
       )}
 
       <button
-    onClick={() => setOpen(!open)}
-    className="bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full shadow-xl flex items-center justify-center"
-    >
-    <FaWhatsapp size={34} />
-    </button>
+        onClick={() => setOpen(!open)}
+        className="relative bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full shadow-xl flex items-center justify-center"
+      >
+        <FaWhatsapp
+          size={34}
+          className={`absolute transition-all duration-300 ${
+            open
+              ? "opacity-40 scale-90"
+              : "opacity-100 scale-100"
+          }`}
+        />
+
+        <span
+          className={`absolute text-3xl font-bold transition-all duration-300 ${
+            open
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-75"
+          }`}
+        >
+          ✕
+        </span>
+      </button>
 
     </div>
   );

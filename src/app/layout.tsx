@@ -1,5 +1,4 @@
 import "./globals.css";
-import FloatingWhatsApp from "@/components/public/FloatingWhatsApp";
 
 export const metadata = {
   title: "Pondok Pesantren Huffadh Nur Khoiri",
@@ -17,13 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
-      <body>
-
-        {children}
-
-        <FloatingWhatsApp />
-
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
